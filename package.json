@@ -1,0 +1,12 @@
+{
+  "name": "Axios",
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "latest",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "vue-cli": "^2.9.6"
+  }
+}

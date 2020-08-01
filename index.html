@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Axios</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+
+</head>
+<body>
+    <div class="container my-5">
+        <div class="text-center">
+            <h1 class="display text-center mb-3">Axios全方位解析</h1>
+            <button class="btn btn-primary my-3" id="get">Get</button>
+            <button class="btn btn-info" id="post">POST</button>
+            <button class="btn btn-warning" id="update">PUT/PATCH</button>
+            <button class="btn btn-danger" id="delete">DELETE</button>
+            <button class="btn btn-secondary" id="sim">批量请求</button>
+            <button class="btn btn-secondary" id="headers">请求头</button>
+            <button class="btn btn-secondary" id="transform">Transform</button>
+            <button class="btn btn-secondary" id="error">Error处理</button>
+            <button class="btn btn-secondary" id="cancel">请求取消</button>
+        </div>
+        <hr/>
+        <div id="res"></div>
+    </div>
+    <!-- 引入axios cdn-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
